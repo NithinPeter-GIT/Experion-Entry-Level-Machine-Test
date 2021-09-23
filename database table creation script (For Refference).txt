@@ -1,0 +1,9 @@
+CREATE TABLE Patient_Information (
+    Reg_Num   INTEGER       PRIMARY KEY ON CONFLICT REPLACE,
+    FirstName VARCHAR (25),
+    LastName  VARCHAR (25),
+    DOB       VARCHAR (20),
+    Gender    VARCHAR (10),
+    Address   VARCHAR (100),
+    PhoneNum  INTEGER
+);
